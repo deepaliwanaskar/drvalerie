@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import {  RouterModule, Routes  } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { TextAnimatorComponent } from './text-animator/text-animator.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    TextAnimatorComponent
   ],
   imports: [
     BrowserModule,
