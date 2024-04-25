@@ -9,6 +9,8 @@ import {  RouterModule, Routes  } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { TextAnimatorComponent } from './text-animator/text-animator.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { TextAnimatorComponent } from './text-animator/text-animator.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [
     provideClientHydration()
